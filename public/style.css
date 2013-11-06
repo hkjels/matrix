@@ -1,0 +1,74 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+  margin: 0;
+  padding: 2em;
+  font-family: 'Open Sans', Helvetica;
+  font-size: 62.5%;
+}
+body {
+  background-color: #fff;
+  font-size: 1.6em;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote {
+  font-weight: normal;
+  margin-bottom: 1.4em;
+}
+h3 {
+  -moz-font-feature-settings: "liga=1, kern=1";
+  -ms-font-feature-settings: "liga" 1, "kern" 1;
+  font-family: 'Open Sans';
+  font-size: 1.7em;
+  margin: .7em 0 .35em;
+  text-rendering: optimizeLegibility;
+}
+a {
+  color: rgb(116, 198, 75);
+  text-decoration: none;
+  outline: none;
+  transition: color .2s ease;
+}
+  a:hover {
+    color: rgb(140, 230, 100);
+  }
+
+.gh-ribbon {
+  border: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+pre {
+  background-color: #222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: rgb(0, 200, 100);
+  padding: 1em;
+}
+
+#content {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+img[alt="Matrix"] {
+  margin: 1em 0;
+  max-width: 349px;
+  min-width: 128px;
+  width: 100%;
+}
+
+  #content > p {
+    font-size: 1.3em;
+  }
+
+  @media screen and (max-width: 30rem) {
+    body {
+      font-size: 1.2em;
+    }
+  }
+
