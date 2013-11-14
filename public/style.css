@@ -40,6 +40,8 @@ a {
   position: absolute;
   right: 0;
   top: 0;
+  height: 149px;
+  width: 149px;
 }
 
 pre {
@@ -48,6 +50,7 @@ pre {
   box-sizing: border-box;
   color: rgb(0, 200, 100);
   padding: 1em;
+  overflow: auto;
 }
 
 #content {
